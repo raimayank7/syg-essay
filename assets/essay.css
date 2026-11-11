@@ -1,0 +1,13 @@
+/* essays: reading blocks */
+.essay .lead{font-size:1.05rem;color:var(--soft)}
+.es{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 16px 14px;margin:18px 0;scroll-margin-top:120px}
+.es h2{margin-top:0}
+.es .hint{margin:-.2em 0 .8em}
+.es-text{font-size:1.06rem;line-height:1.75}
+.es-text p{margin:0 0 .9em}
+ol.es-text{padding-left:1.5em;margin:0}
+ol.es-text li{margin:.35em 0}
+.es[lang=hi] .es-text,.es[lang=hi] h2{font-family:'Noto Sans Devanagari','Nirmala UI','Mangal',var(--font);line-height:1.9}
+.essay .btn.sm,.essay .chips a{min-height:40px}
+#points{scroll-margin-top:120px}
+@media print{.es{border:0;padding:0;break-inside:auto}.chips,.note,.grid,.btn{display:none!important}}
